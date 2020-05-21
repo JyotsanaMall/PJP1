@@ -1,4 +1,4 @@
-package com.sapient;
+package com.sapient.week1;
 
 //import junit.framework.Test;
 //import junit.framework.TestCase;

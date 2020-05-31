@@ -1,0 +1,19 @@
+th,td{
+    text-align: center;
+}
+
+td{
+    color: darkblue;
+}
+
+.container{
+    margin-top: 20px;
+}
+
+.headings{
+    background-color: cyan;
+}
+
+.table{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}

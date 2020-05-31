@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Question 3</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js">
+        <link rel="stylesheet" href=".css">
+        <script src="https://code.jquery.com/jquery-2.1.4.js"></script>
+	    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+        <script src="q3.js"></script>
+        <header>Calculator</header>
+    </head>
+
+    <body>
+        <div class="container">
+            <table align="center">
+                <tr> 
+                    <td colspan="3"><input type="text" id="result"/></td> 
+                    <td><input type="button" value="c" class="btn" onclick="clr()"/> </td> 
+                 </tr> 
+                 <tr> 
+                    <td><button  class="btn" onclick="dis('1')">1</button></td> 
+                    <td><button  class="btn" onclick="dis('2')">2</button></td> 
+                    <td><button  class="btn" onclick="dis('3')">3</button></td> 
+                    <td><button  class="btn" onclick="dis('/')">/</button></td> 
+                 </tr> 
+                 <tr> 
+                    <td><button  class="btn" onclick="dis('4')">4</button></td> 
+                    <td><button  class="btn" onclick="dis('5')">5</button></td> 
+                    <td><button  class="btn" onclick="dis('6')">6</button></td> 
+                    <td><button  class="btn" onclick="dis('-')">-</button></td> 
+                 </tr> 
+                 <tr> 
+                    <td><button  class="btn" onclick="dis('7')">7</button></td> 
+                    <td><button  class="btn" onclick="dis('8')">8</button></td> 
+                    <td><button  class="btn" onclick="dis('9')">9</button></td> 
+                    <td><button  class="btn" onclick="dis('+')">+</button></td> 
+                 </tr> 
+                 <tr> 
+                    <td><button  class="btn" onclick="dis('.')">.</button></td> 
+                    <td><button  class="btn" onclick="dis('0')">0</button></td> 
+                    <td><button  class="btn" onclick="solve()">=</button></td> 
+                    <td><button  class="btn" onclick="dis('*')">*</button></td> 
+                 </tr> 
+            </table>
+        </div>
+    </body>
+</html>

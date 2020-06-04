@@ -1,0 +1,37 @@
+html,head,body{
+    background-color: wheat;
+}
+
+header{
+    font-size: xx-large;
+    text-align: center;
+    background-color: skyblue;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.container{
+    background-color: skyblue;
+    padding: 40px;
+    height: 400px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+input[type=number]{
+    width: 50%;
+    margin: 0 auto;
+}
+
+#res{
+    min-width: fit-content;
+    width: 20%;
+    margin: 0 auto;
+}
+.radio-operations{
+    margin: 15px;
+}
+.btn{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
